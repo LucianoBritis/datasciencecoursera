@@ -6,7 +6,7 @@
 
 #### Answer
 
-- **S **
+- **S**
 
 #### Explanation
 
