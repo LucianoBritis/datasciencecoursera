@@ -22,7 +22,7 @@ complete <- function(directory, id = 1:332){
 
 
 
-You can test this function by running it a few different id's and pollutant:
+You can test this function by running it a few different id's or with random values in a vector:
 
 ```
 > complete("specdata", 1:10)
