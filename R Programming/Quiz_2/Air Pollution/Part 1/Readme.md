@@ -79,7 +79,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
 
 ```
 > pollutantmean("specdata", "nitrate", 1:100)
-[1] 1.706047
+[1] 2.069812
 ```
 
 ```
