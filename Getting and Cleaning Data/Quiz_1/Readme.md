@@ -10,24 +10,10 @@ and load the data into R. The code book, describing the variable names is here:
 
 How many properties are worth $1,000,000 or more?
 
-<div>
-  <input type="radio" id="one" name="one" value="53" checked = "checked" >
-  <label for="one">53</label>
-</div>
-<div>
-  <input type="radio" id="one" name="one" value="25">
-  <label for="one">25</label>
-</div>
+**Answer**
 
-<div>
-  <input type="radio" id="one" name="one" value="2076">
-  <label for="one">2076</label>
-</div>
+- 53
 
-<div>
-  <input type="radio" id="one" name="one" value="164">
-  <label for="one">164</label>
-</div>
 
 ## My Solution
 
@@ -106,25 +92,9 @@ How many properties are worth $1,000,000 or more?
 
 ### 2.  Use the data you loaded from Question 1. Consider the variable FES in the code book. Which of the "tidy data" principles does this variable violate? 
 
-<div>
-  <input type="radio" id="one" name="one" value="Each variable in a tidy data set has been transformed to be interpretable. ">
-  <label for="one">Each variable in a tidy data set has been transformed to be interpretable. </label>
-</div>
+**Answer**
 
-<div>
-  <input type="radio" id="one" name="one" value="Numeric values in tidy data can not represent categories. ">
-  <label for="one">Numeric values in tidy data can not represent categories.</label>
-</div>
-<div>
-  <input type="radio" id="one" name="one" value="Tidy data has variable values that are internally consistent. ">
-  <label for="one">Tidy data has variable values that are internally consistent. </label>
-</div>
-
-<div>
-  <input type="radio" id="one" name="one" value="Tidy data has one variable per column." checked = "checked">
-  <label for="one">Tidy data has one variable per column.</label>
-</div>
-
+- Tidy data has one variable per column.
 
 
 1. FES
@@ -132,8 +102,6 @@ How many properties are worth $1,000,000 or more?
    - Family type and employment status
 
    
-
-
 
 ### 3. Download the Excel spreadsheet on Natural Gas Aquisition Program here: 
 
@@ -153,26 +121,10 @@ What is the value of:
 
 (original data source: http://catalog.data.gov/dataset/natural-gas-acquisition-program)
 
-<div>
-  <input type="radio" id="one" name="one" value="NA">
-  <label for="one">NA</label>
-</div>
+**Answer**
 
-<div>
-  <input type="radio" id="one" name="one" value="154339">
-  <label for="one">154339</label>
-</div>
+- 36534720
 
-
-<div>
-  <input type="radio" id="one" name="one" value="36534720" checked = "checked" >
-  <label for="one">36534720</label>
-</div>
-
-<div>
-  <input type="radio" id="one" name="one" value="0">
-  <label for="one">0</label>
-</div>
 ## My Solution
 
 ```
@@ -235,26 +187,10 @@ downloaded 15 KB
 
 How many restaurants have zipcode 21231? 
 
+**Answer**
 
+- 127
 
-<div>
-  <input type="radio" id="one" name="one" value="100">
-  <label for="one">100</label>
-</div>
-
-<div>
-  <input type="radio" id="one" name="one" value="127" checked = "checked">
-  <label for="one">127</label>
-</div>
-<div>
-  <input type="radio" id="one" name="one" value="156">
-  <label for="one">156</label>
-</div>
-
-<div>
-  <input type="radio" id="one" name="one" value="17">
-  <label for="one">17</label>
-</div>
 ## My Solution
 
 ```
@@ -318,41 +254,10 @@ The following are ways to calculate the average value of the variable
 
 broken down by sex. Using the data.table package, which will deliver the fastest user time? 
 
-<div>
-  <input type="radio" id="one" name="one" value="DT[,mean(pwgtp15),by=SEX]"
-         checked = "checked">
-  <label for="one">DT[,mean(pwgtp15),by=SEX]</label>
-</div>
+**Answer**
 
+- DT[,mean(pwgtp15),by=SEX]
 
-<div>
-  <input type="radio" id="one" name="one" value="rowMeans(DT)[DT$SEX==1]; rowMeans(DT)[DT$SEX==2]"
-         checked>
-  <label for="one">rowMeans(DT)[DT$SEX==1]; rowMeans(DT)[DT$SEX==2]</label>
-</div>
-
-<div>
-  <input type="radio" id="two" name="two" value="tapply(DT$pwgtp15,DT$SEX,mean)">
-  <label for="two">tapply(DT$pwgtp15,DT$SEX,mean)</label>
-</div>
-
-<div>
-  <input type="radio" id="one" name="one" value="sapply(split(DT$pwgtp15,DT$SEX),mean)"
-         checked>
-  <label for="one">sapply(split(DT$pwgtp15,DT$SEX),mean)</label>
-</div>
-
-<div>
-  <input type="radio" id="one" name="one" value="mean(DT[DT$SEX==1,]$pwgtp15); mean(DT[DT$SEX==2,]$pwgtp15)"
-         checked>
-  <label for="one">mean(DT[DT$SEX==1,]$pwgtp15); mean(DT[DT$SEX==2,]$pwgtp15)</label>
-</div>
-
-<div>
-  <input type="radio" id="one" name="one" value="mean(DT$pwgtp15,by=DT$SEX)"
-         checked>
-  <label for="one">mean(DT$pwgtp15,by=DT$SEX)</label>
-</div>
 ## My Solution
 
 
