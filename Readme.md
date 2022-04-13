@@ -8,7 +8,7 @@ This Specialization covers the concepts and tools you’ll need throughout the e
 
 - [x] [Data Scientist’s Toolbox](https://www.coursera.org/learn/data-scientists-tools)
 - [x] [R programming](https://www.coursera.org/learn/r-programming)
-- [ ] [Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning)
+- [X] [Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning)
 - [ ] [Exploratory Data Analysis](https://www.coursera.org/learn/exploratory-data-analysis)
 
 - [ ] [Reproducible Research](https://www.coursera.org/learn/reproducible-research)
